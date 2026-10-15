@@ -26,7 +26,7 @@ CASES = [
 
 def variant(**kw):
     """Load the model with module-level constants replaced (same approach as make_results_figs.py)."""
-    src = open(os.path.join(HERE, "dsi_2d_model_v6.py")).read()
+    src = open(os.path.join(HERE, "dsi_2d_model.py")).read()
     for k, v in kw.items():
         src, n = re.subn(rf"^{k}\s*=.*$", f"{k} = {v!r}", src, count=1, flags=re.M)
         assert n == 1, k

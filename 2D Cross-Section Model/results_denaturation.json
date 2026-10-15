@@ -1,0 +1,118 @@
+{
+  "benchmark_against_Lee_2017": {
+    "HTST, 78 degC for 15 s": {
+      "predicted_pct": 0.1465007140970087,
+      "measured_SPDN_pct": 20.0
+    },
+    "DSI-UP, 140 degC for 2.3 s": {
+      "predicted_pct": 8.890102562770686,
+      "measured_SPDN_pct": 70.9
+    }
+  },
+  "whey_mass_fraction_in": 0.0068000000000000005,
+  "note": "injector excess = mixing-cup aggregation at the 41 m outlet minus that of the same milk heated uniformly at the mixing-cup temperature, as % of the uniform value and as the equivalent extra time at 72 degC (scaled by the mean hold residence time). 'equilibrium' = native/unfolded equilibrium of the fitted kinetics (base); 'all_reactive' = sensitivity case with every native molecule reactive (f_U = 1).",
+  "equilibrium": {
+    "top": {
+      "label": "Top wall, 45\u00b0 (base)",
+      "injector_excess_pct_of_hold": 22.47634210569115,
+      "injector_excess_equiv_s_at_72C": 4.121321392811415,
+      "outlet_aggregated_pct": 0.017332914698382097,
+      "outlet_aggregated_pct_uniform": 0.014152051245476152,
+      "hold_mean_residence_s": 18.336263852149994,
+      "peak_wall_layer_T": 124.23649847529842,
+      "mixing_length_mm": 113.0
+    },
+    "radial": {
+      "label": "Top wall, 90\u00b0",
+      "injector_excess_pct_of_hold": 14.019653829730533,
+      "injector_excess_equiv_s_at_72C": 2.5706807173774426,
+      "outlet_aggregated_pct": 0.016143903895290274,
+      "outlet_aggregated_pct_uniform": 0.014158878187262802,
+      "hold_mean_residence_s": 18.336263852149997,
+      "peak_wall_layer_T": 132.71768241213334,
+      "mixing_length_mm": 85.0
+    },
+    "shallow": {
+      "label": "Top wall, 20\u00b0",
+      "injector_excess_pct_of_hold": 24.542131321705657,
+      "injector_excess_equiv_s_at_72C": 4.500109954089096,
+      "outlet_aggregated_pct": 0.017621833697653362,
+      "outlet_aggregated_pct_uniform": 0.014149295110531132,
+      "hold_mean_residence_s": 18.336263852149994,
+      "peak_wall_layer_T": 130.51038116387375,
+      "mixing_length_mm": 131.0
+    },
+    "centre": {
+      "label": "Centre lance, co-axial",
+      "injector_excess_pct_of_hold": 0.17330105173847726,
+      "injector_excess_equiv_s_at_72C": 0.03177693810531817,
+      "outlet_aggregated_pct": 0.014172389722668544,
+      "outlet_aggregated_pct_uniform": 0.014147871312884707,
+      "hold_mean_residence_s": 18.336263852149994,
+      "peak_wall_layer_T": 72.00000000000006,
+      "mixing_length_mm": 37.0
+    },
+    "ring": {
+      "label": "Ring, 4 nozzles, 45\u00b0",
+      "injector_excess_pct_of_hold": 4.413351528399076,
+      "injector_excess_equiv_s_at_72C": 0.8092437809701492,
+      "outlet_aggregated_pct": 0.014778693480536984,
+      "outlet_aggregated_pct_uniform": 0.014154026534161555,
+      "hold_mean_residence_s": 18.336263852149997,
+      "peak_wall_layer_T": 110.33745244002257,
+      "mixing_length_mm": 34.0
+    }
+  },
+  "all_reactive": {
+    "top": {
+      "label": "Top wall, 45\u00b0 (base)",
+      "injector_excess_pct_of_hold": 5.942551731625774,
+      "injector_excess_equiv_s_at_72C": 1.0896419650614102,
+      "outlet_aggregated_pct": 0.059081949591646234,
+      "outlet_aggregated_pct_uniform": 0.05576791253934768,
+      "hold_mean_residence_s": 18.336263852149994,
+      "peak_wall_layer_T": 124.23649847529842,
+      "mixing_length_mm": 113.0
+    },
+    "radial": {
+      "label": "Top wall, 90\u00b0",
+      "injector_excess_pct_of_hold": 3.7437632858752026,
+      "injector_excess_equiv_s_at_72C": 0.6864663140979977,
+      "outlet_aggregated_pct": 0.057882702677874445,
+      "outlet_aggregated_pct_uniform": 0.05579391073213094,
+      "hold_mean_residence_s": 18.336263852149997,
+      "peak_wall_layer_T": 132.71768241213334,
+      "mixing_length_mm": 85.0
+    },
+    "shallow": {
+      "label": "Top wall, 20\u00b0",
+      "injector_excess_pct_of_hold": 6.4670575313378125,
+      "injector_excess_equiv_s_at_72C": 1.185816732416439,
+      "outlet_aggregated_pct": 0.059362766506853085,
+      "outlet_aggregated_pct_uniform": 0.05575693353728695,
+      "hold_mean_residence_s": 18.336263852149994,
+      "peak_wall_layer_T": 130.51038116387375,
+      "mixing_length_mm": 131.0
+    },
+    "centre": {
+      "label": "Centre lance, co-axial",
+      "injector_excess_pct_of_hold": 0.05965356569793736,
+      "injector_excess_equiv_s_at_72C": 0.010938235203589436,
+      "outlet_aggregated_pct": 0.05578575919876685,
+      "outlet_aggregated_pct_uniform": 0.0557525008440476,
+      "hold_mean_residence_s": 18.336263852149994,
+      "peak_wall_layer_T": 72.00000000000006,
+      "mixing_length_mm": 37.0
+    },
+    "ring": {
+      "label": "Ring, 4 nozzles, 45\u00b0",
+      "injector_excess_pct_of_hold": 1.2010087437285013,
+      "injector_excess_equiv_s_at_72C": 0.22022013213744998,
+      "outlet_aggregated_pct": 0.056445394902475333,
+      "outlet_aggregated_pct_uniform": 0.055775525958849,
+      "hold_mean_residence_s": 18.336263852149997,
+      "peak_wall_layer_T": 110.33745244002257,
+      "mixing_length_mm": 34.0
+    }
+  }
+}

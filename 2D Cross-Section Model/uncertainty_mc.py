@@ -28,7 +28,7 @@ CASES = [
     ("centre", "Centre lance, co-axial", dict(position="centre", angle=0.0)),
     ("ring", "Ring, 4 nozzles, 45°", dict(position="ring", n_nozzles=4)),
 ]
-SRC = open(os.path.join(HERE, "dsi_2d_model_v6.py")).read()
+SRC = open(os.path.join(HERE, "dsi_2d_model.py")).read()
 
 
 def variant(**kw):

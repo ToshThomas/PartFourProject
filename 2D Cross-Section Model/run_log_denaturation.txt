@@ -1,0 +1,14 @@
+[equilibrium ] Top wall, 45° (base)     injector adds  22.5 % of the hold's aggregation (= 4.12 s at 72 degC)
+[equilibrium ] Top wall, 90°            injector adds  14.0 % of the hold's aggregation (= 2.57 s at 72 degC)
+[equilibrium ] Top wall, 20°            injector adds  24.5 % of the hold's aggregation (= 4.50 s at 72 degC)
+[equilibrium ] Centre lance, co-axial   injector adds   0.2 % of the hold's aggregation (= 0.03 s at 72 degC)
+[equilibrium ] Ring, 4 nozzles, 45°     injector adds   4.4 % of the hold's aggregation (= 0.81 s at 72 degC)
+[all_reactive] Top wall, 45° (base)     injector adds   5.9 % of the hold's aggregation (= 1.09 s at 72 degC)
+[all_reactive] Top wall, 90°            injector adds   3.7 % of the hold's aggregation (= 0.69 s at 72 degC)
+[all_reactive] Top wall, 20°            injector adds   6.5 % of the hold's aggregation (= 1.19 s at 72 degC)
+[all_reactive] Centre lance, co-axial   injector adds   0.1 % of the hold's aggregation (= 0.01 s at 72 degC)
+[all_reactive] Ring, 4 nozzles, 45°     injector adds   1.2 % of the hold's aggregation (= 0.22 s at 72 degC)
+Benchmark against Lee et al. (2017), uniform temperature, base kinetics:
+  HTST, 78 degC for 15 s: predicted 0.15 %, measured SPDN 20.0 %
+  DSI-UP, 140 degC for 2.3 s: predicted 8.89 %, measured SPDN 70.9 %
+saved figs/report/fig_A5_6_denaturation.png

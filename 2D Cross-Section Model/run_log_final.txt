@@ -1,5 +1,5 @@
 ==============================================================================
-DSI 2D model v6 | GEOMETRY=pipe PROFILE=power17 nx=41001 ny=40
+DSI 2D model | GEOMETRY=pipe PROFILE=power17 nx=41001 ny=40
 ==============================================================================
   milk 3.93 kg/s at 2.0 m/s, Re=68,027, Pr=10.7
   u*=0.0989 m/s  D_pipe=2.04e-04 m2/s  first cell y+=42
@@ -31,7 +31,7 @@ required nozzle for 72 degC
   peak strip T: top 124.2, bottom 72.0 degC | cells at T_sat(line): 7 of 40 | top>70 for 40798 mm, bottom>70 for 40720 mm
   wall hotter than product (>0.1 degC) downstream of injector: top 155 mm, bottom 0 mm
   hold downstream of injector: mean 18.3 s, fastest element 16.7 s, (1/7-law centreline 15.0 s), wall layer 28.1 s | coldest layer at outlet 72.00 degC
-  saved dsi_v6_1_nozzle.png
+  saved dsi_2d_1_nozzle.png
 
 ==============================================================================
 SWEEP 2_angle: Injection angle (required nozzle, top, adiabatic)
@@ -63,7 +63,7 @@ SWEEP 2_angle: Injection angle (required nozzle, top, adiabatic)
   peak strip T: top 130.5, bottom 72.0 degC | cells at T_sat(line): 7 of 40 | top>70 for 40797 mm, bottom>70 for 40706 mm
   wall hotter than product (>0.1 degC) downstream of injector: top 179 mm, bottom 0 mm
   hold downstream of injector: mean 18.3 s, fastest element 16.7 s, (1/7-law centreline 15.0 s), wall layer 28.1 s | coldest layer at outlet 72.00 degC
-  saved dsi_v6_2_angle.png
+  saved dsi_2d_2_angle.png
 
 ==============================================================================
 SWEEP 3_position: Injector position (required nozzle, adiabatic)
@@ -104,7 +104,7 @@ ring, 4 nozzles, 45 deg
   peak strip T: top 110.3, bottom 110.3 degC | cells at T_sat(line): 8 of 40 | top>70 for 40798 mm, bottom>70 for 40798 mm
   wall hotter than product (>0.1 degC) downstream of injector: top 45 mm, bottom 45 mm
   hold downstream of injector: mean 18.3 s, fastest element 16.7 s, (1/7-law centreline 15.0 s), wall layer 28.1 s | coldest layer at outlet 72.00 degC
-  saved dsi_v6_3_position.png
+  saved dsi_2d_3_position.png
 
 ==============================================================================
 SWEEP 4_wall: Wall heat loss, ambient 10 degC (required nozzle, top, 45 deg)
@@ -138,5 +138,5 @@ bare stainless
   wall hotter than product (>0.1 degC) downstream of injector: top 155 mm, bottom 0 mm
   hold downstream of injector: mean 18.3 s, fastest element 16.7 s, (1/7-law centreline 15.0 s), wall layer 28.1 s | coldest layer at outlet 71.97 degC
   wall heat loss 572 W (0.05% of steam duty), outlet 71.97 degC
-  saved dsi_v6_4_wall.png
-  saved dsi_v6_summary.png
+  saved dsi_2d_4_wall.png
+  saved dsi_2d_summary.png

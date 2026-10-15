@@ -15,7 +15,7 @@ import numpy as np
 import openpyxl
 from matplotlib.ticker import FixedLocator, NullFormatter, NullLocator
 
-import dsi_2d_model_v6 as M
+import dsi_2d_model as M
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "figs", "report")
@@ -221,7 +221,7 @@ import re
 
 
 def variant(**kw):
-    src = open(os.path.join(HERE, "dsi_2d_model_v6.py")).read()
+    src = open(os.path.join(HERE, "dsi_2d_model.py")).read()
     for k, v in kw.items():
         src = re.sub(rf"^{k}\s*=.*$", f"{k} = {v!r}", src, count=1, flags=re.M)
     ns = {"__name__": "variant"}; exec(compile(src, "variant", "exec"), ns); return ns

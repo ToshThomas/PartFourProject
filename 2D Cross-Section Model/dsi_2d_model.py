@@ -9,7 +9,7 @@ compare injector size, angle, position and pipe insulation.
 
 Equations, assumptions and sources are documented in the final report.
 
-Run:  python dsi_2d_model_v6.py
+Run:  python dsi_2d_model.py
 """
 
 import numpy as np
@@ -421,7 +421,7 @@ def solve(case):
 # ============================================================================
 def header():
     print("="*78)
-    print(f"DSI 2D model v6 | GEOMETRY={GEOMETRY} PROFILE={PROFILE} nx={nx} ny={ny}")
+    print(f"DSI 2D model | GEOMETRY={GEOMETRY} PROFILE={PROFILE} nx={nx} ny={ny}")
     print("="*78)
     print(f"  milk {milk_mdot:.2f} kg/s at {milk_velocity} m/s, Re={Re:,.0f}, Pr={Pr:.1f}")
     print(f"  u*={ustar:.4f} m/s  D_pipe={D_pipe:.2e} m2/s  first cell y+={y_plus_1:.0f}")
@@ -549,6 +549,6 @@ if __name__ == "__main__":
         results = [solve(c) for c in cases]
         for r in results:
             report(r)
-        plot_sweep(results, f"dsi_v6_{key}.png", title)
+        plot_sweep(results, f"dsi_2d_{key}.png", title)
         everything += results
-    plot_summary(everything, "dsi_v6_summary.png")
+    plot_summary(everything, "dsi_2d_summary.png")

@@ -1,4 +1,4 @@
-"""Whey-protein denaturation downstream of the injector (post-processor for dsi_2d_model_v6.py).
+"""Whey-protein denaturation downstream of the injector (post-processor for dsi_2d_model.py).
 
 The cross-sectional model gives the temperature of every layer along the pipe. This script
 carries the whey protein through that field and asks whether the hot spots beside the
@@ -49,7 +49,7 @@ CASES = [
 
 def variant(**kw):
     """Load the model with module-level constants replaced (as in line_pressure_sweep.py)."""
-    src = open(os.path.join(HERE, "dsi_2d_model_v6.py")).read()
+    src = open(os.path.join(HERE, "dsi_2d_model.py")).read()
     for k, v in kw.items():
         src, n = re.subn(rf"^{k}\s*=.*$", f"{k} = {v!r}", src, count=1, flags=re.M)
         assert n == 1, k
