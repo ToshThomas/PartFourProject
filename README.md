@@ -62,6 +62,8 @@ python denaturation.py > run_log_denaturation.txt   # whey-protein denaturation,
 python make_fig_schematics.py                       # Figures 1.1 and 3.1
 ```
 
+Figures (`figs/` and the `dsi_2d_*.png` quick-look plots) are written by the scripts. They are included in the submitted compendium but not stored in the GitHub repository; run the scripts below to regenerate them.
+
 `make_results_figs.py` reads the 1D workbook for Figure A4.1, so keep the two model folders side by side. Re-running the scripts reproduces `run_log_final.txt`, `results.json`, `results_line_pressure.json`, `results_uncertainty.json` and `results_denaturation.json` exactly (the Monte Carlo uses a fixed seed). This was checked on 14 October 2026.
 
 ## Where each report result comes from
