@@ -1,0 +1,142 @@
+==============================================================================
+DSI 2D model v6 | GEOMETRY=pipe PROFILE=power17 nx=41001 ny=40
+==============================================================================
+  milk 3.93 kg/s at 2.0 m/s, Re=68,027, Pr=10.7
+  u*=0.0989 m/s  D_pipe=2.04e-04 m2/s  first cell y+=42
+  steam supply 6.0 bar (T_sat 159.1 degC)
+  milk line    3.0 bar (T_sat 133.7 degC) -> cap on cell T
+  flash check: target 72 degC is 61.7 degC below line T_sat  OK
+  steam required for 72 degC: 1,591 kg/h
+  basis nozzle 5.0 mm passes 53 kg/h (choked, Cd=0.85) -> single required nozzle 27.5 mm
+  wall U (W/m2K, inner area): bare 10.6, insulated 1.44  (h_in=5,005)
+
+==============================================================================
+SWEEP 1_nozzle: Nozzle size (top, 45 deg, adiabatic)
+==============================================================================
+
+------------------------------------------------------------------------------
+basis 5 mm nozzle (choked)
+  nozzle basis: 1 x 5.0 mm, 53 kg/h | angle 45 deg | top | wall adiabatic
+  jet: J=98, r*d_eq=2.2 mm, Kerney L_c=6.9 mm, penetration 81% D at x=65 mm downstream, ends by 'confined' at x=65 mm (m/m0=270.3, 100% of heat deposited along path)
+  outlet 8.42 degC, outlet spread 0.00 degC, mixing length (spread<1 degC) 279 mm
+  peak strip T: top 85.5, bottom 8.4 degC | cells at T_sat(line): 1 of 40 | top>70 for 1 mm, bottom>70 for 0 mm
+  wall hotter than product (>0.1 degC) downstream of injector: top 1126 mm, bottom 0 mm
+  hold downstream of injector: mean 20.3 s, fastest element 18.5 s, (1/7-law centreline 16.6 s), wall layer 31.2 s | coldest layer at outlet 8.42 degC
+
+------------------------------------------------------------------------------
+required nozzle for 72 degC
+  nozzle required: 1 x 27.5 mm, 1,591 kg/h | angle 45 deg | top | wall adiabatic
+  jet: J=98, r*d_eq=12.0 mm, Kerney L_c=38.1 mm, penetration 39% D at x=20 mm downstream, ends by 'confined' at x=20 mm (m/m0=9.9, 90% of heat deposited along path)
+  outlet 72.00 degC, outlet spread 0.00 degC, mixing length (spread<1 degC) 113 mm
+  peak strip T: top 124.2, bottom 72.0 degC | cells at T_sat(line): 7 of 40 | top>70 for 40798 mm, bottom>70 for 40720 mm
+  wall hotter than product (>0.1 degC) downstream of injector: top 155 mm, bottom 0 mm
+  hold downstream of injector: mean 18.3 s, fastest element 16.7 s, (1/7-law centreline 15.0 s), wall layer 28.1 s | coldest layer at outlet 72.00 degC
+  saved dsi_v6_1_nozzle.png
+
+==============================================================================
+SWEEP 2_angle: Injection angle (required nozzle, top, adiabatic)
+==============================================================================
+
+------------------------------------------------------------------------------
+90 deg (radial)
+  nozzle required: 1 x 27.5 mm, 1,591 kg/h | angle 90 deg | top | wall adiabatic
+  jet: J=98, r*d_eq=12.0 mm, Kerney L_c=38.1 mm, penetration 53% D at x=0 mm downstream, ends by 'confined' at x=0 mm (m/m0=9.9, 90% of heat deposited along path)
+  outlet 72.00 degC, outlet spread 0.00 degC, mixing length (spread<1 degC) 85 mm
+  peak strip T: top 132.7, bottom 72.0 degC | cells at T_sat(line): 11 of 40 | top>70 for 40801 mm, bottom>70 for 40743 mm
+  wall hotter than product (>0.1 degC) downstream of injector: top 121 mm, bottom 0 mm
+  hold downstream of injector: mean 18.3 s, fastest element 16.7 s, (1/7-law centreline 15.0 s), wall layer 28.1 s | coldest layer at outlet 72.00 degC
+
+------------------------------------------------------------------------------
+45 deg
+  nozzle required: 1 x 27.5 mm, 1,591 kg/h | angle 45 deg | top | wall adiabatic
+  jet: J=98, r*d_eq=12.0 mm, Kerney L_c=38.1 mm, penetration 39% D at x=20 mm downstream, ends by 'confined' at x=20 mm (m/m0=9.9, 90% of heat deposited along path)
+  outlet 72.00 degC, outlet spread 0.00 degC, mixing length (spread<1 degC) 113 mm
+  peak strip T: top 124.2, bottom 72.0 degC | cells at T_sat(line): 7 of 40 | top>70 for 40798 mm, bottom>70 for 40720 mm
+  wall hotter than product (>0.1 degC) downstream of injector: top 155 mm, bottom 0 mm
+  hold downstream of injector: mean 18.3 s, fastest element 16.7 s, (1/7-law centreline 15.0 s), wall layer 28.1 s | coldest layer at outlet 72.00 degC
+
+------------------------------------------------------------------------------
+20 deg (near-axial)
+  nozzle required: 1 x 27.5 mm, 1,591 kg/h | angle 20 deg | top | wall adiabatic
+  jet: J=98, r*d_eq=12.0 mm, Kerney L_c=38.1 mm, penetration 20% D at x=28 mm downstream, ends by 'confined' at x=28 mm (m/m0=9.9, 90% of heat deposited along path)
+  outlet 72.00 degC, outlet spread 0.00 degC, mixing length (spread<1 degC) 131 mm
+  peak strip T: top 130.5, bottom 72.0 degC | cells at T_sat(line): 7 of 40 | top>70 for 40797 mm, bottom>70 for 40706 mm
+  wall hotter than product (>0.1 degC) downstream of injector: top 179 mm, bottom 0 mm
+  hold downstream of injector: mean 18.3 s, fastest element 16.7 s, (1/7-law centreline 15.0 s), wall layer 28.1 s | coldest layer at outlet 72.00 degC
+  saved dsi_v6_2_angle.png
+
+==============================================================================
+SWEEP 3_position: Injector position (required nozzle, adiabatic)
+==============================================================================
+
+------------------------------------------------------------------------------
+top wall, 45 deg
+  nozzle required: 1 x 27.5 mm, 1,591 kg/h | angle 45 deg | top | wall adiabatic
+  jet: J=98, r*d_eq=12.0 mm, Kerney L_c=38.1 mm, penetration 39% D at x=20 mm downstream, ends by 'confined' at x=20 mm (m/m0=9.9, 90% of heat deposited along path)
+  outlet 72.00 degC, outlet spread 0.00 degC, mixing length (spread<1 degC) 113 mm
+  peak strip T: top 124.2, bottom 72.0 degC | cells at T_sat(line): 7 of 40 | top>70 for 40798 mm, bottom>70 for 40720 mm
+  wall hotter than product (>0.1 degC) downstream of injector: top 155 mm, bottom 0 mm
+  hold downstream of injector: mean 18.3 s, fastest element 16.7 s, (1/7-law centreline 15.0 s), wall layer 28.1 s | coldest layer at outlet 72.00 degC
+
+------------------------------------------------------------------------------
+bottom wall, 45 deg
+  nozzle required: 1 x 27.5 mm, 1,591 kg/h | angle 45 deg | bottom | wall adiabatic
+  jet: J=98, r*d_eq=12.0 mm, Kerney L_c=38.1 mm, penetration 39% D at x=20 mm downstream, ends by 'confined' at x=20 mm (m/m0=9.9, 90% of heat deposited along path)
+  outlet 72.00 degC, outlet spread 0.00 degC, mixing length (spread<1 degC) 113 mm
+  peak strip T: top 72.0, bottom 124.2 degC | cells at T_sat(line): 7 of 40 | top>70 for 40720 mm, bottom>70 for 40798 mm
+  wall hotter than product (>0.1 degC) downstream of injector: top 0 mm, bottom 155 mm
+  hold downstream of injector: mean 18.3 s, fastest element 16.7 s, (1/7-law centreline 15.0 s), wall layer 28.1 s | coldest layer at outlet 72.00 degC
+
+------------------------------------------------------------------------------
+centre lance, co-axial (0 deg)
+  nozzle required: 1 x 27.5 mm, 1,591 kg/h | angle 0 deg | centre | wall adiabatic
+  jet: J=98, r*d_eq=12.0 mm, Kerney L_c=38.1 mm, penetration 0% D at x=0 mm downstream, ends by 'confined' at x=32 mm (m/m0=9.9, 90% of heat deposited along path)
+  outlet 72.00 degC, outlet spread 0.00 degC, mixing length (spread<1 degC) 37 mm
+  peak strip T: top 72.0, bottom 72.0 degC | cells at T_sat(line): 2 of 40 | top>70 for 40769 mm, bottom>70 for 40769 mm
+  wall hotter than product (>0.1 degC) downstream of injector: top 0 mm, bottom 0 mm
+  hold downstream of injector: mean 18.3 s, fastest element 16.7 s, (1/7-law centreline 15.0 s), wall layer 28.1 s | coldest layer at outlet 72.00 degC
+
+------------------------------------------------------------------------------
+ring, 4 nozzles, 45 deg
+  nozzle required: 4 x 13.7 mm, 1,591 kg/h | angle 45 deg | ring | wall adiabatic
+  jet: J=98, r*d_eq=6.0 mm, Kerney L_c=26.9 mm, penetration 28% D at x=14 mm downstream, ends by 'confined' at x=14 mm (m/m0=10.0, 90% of heat deposited along path)
+  outlet 72.00 degC, outlet spread 0.00 degC, mixing length (spread<1 degC) 34 mm
+  peak strip T: top 110.3, bottom 110.3 degC | cells at T_sat(line): 8 of 40 | top>70 for 40798 mm, bottom>70 for 40798 mm
+  wall hotter than product (>0.1 degC) downstream of injector: top 45 mm, bottom 45 mm
+  hold downstream of injector: mean 18.3 s, fastest element 16.7 s, (1/7-law centreline 15.0 s), wall layer 28.1 s | coldest layer at outlet 72.00 degC
+  saved dsi_v6_3_position.png
+
+==============================================================================
+SWEEP 4_wall: Wall heat loss, ambient 10 degC (required nozzle, top, 45 deg)
+==============================================================================
+
+------------------------------------------------------------------------------
+adiabatic
+  nozzle required: 1 x 27.5 mm, 1,591 kg/h | angle 45 deg | top | wall adiabatic
+  jet: J=98, r*d_eq=12.0 mm, Kerney L_c=38.1 mm, penetration 39% D at x=20 mm downstream, ends by 'confined' at x=20 mm (m/m0=9.9, 90% of heat deposited along path)
+  outlet 72.00 degC, outlet spread 0.00 degC, mixing length (spread<1 degC) 113 mm
+  peak strip T: top 124.2, bottom 72.0 degC | cells at T_sat(line): 7 of 40 | top>70 for 40798 mm, bottom>70 for 40720 mm
+  wall hotter than product (>0.1 degC) downstream of injector: top 155 mm, bottom 0 mm
+  hold downstream of injector: mean 18.3 s, fastest element 16.7 s, (1/7-law centreline 15.0 s), wall layer 28.1 s | coldest layer at outlet 72.00 degC
+
+------------------------------------------------------------------------------
+bare stainless
+  nozzle required: 1 x 27.5 mm, 1,591 kg/h | angle 45 deg | top | wall bare
+  jet: J=98, r*d_eq=12.0 mm, Kerney L_c=38.1 mm, penetration 39% D at x=20 mm downstream, ends by 'confined' at x=20 mm (m/m0=9.9, 90% of heat deposited along path)
+  outlet 71.77 degC, outlet spread 0.01 degC, mixing length (spread<1 degC) 113 mm
+  peak strip T: top 124.2, bottom 72.0 degC | cells at T_sat(line): 7 of 40 | top>70 for 40798 mm, bottom>70 for 40720 mm
+  wall hotter than product (>0.1 degC) downstream of injector: top 155 mm, bottom 0 mm
+  hold downstream of injector: mean 18.3 s, fastest element 16.7 s, (1/7-law centreline 15.0 s), wall layer 28.1 s | coldest layer at outlet 71.76 degC
+  wall heat loss 4204 W (0.35% of steam duty), outlet 71.77 degC
+
+------------------------------------------------------------------------------
+50 mm insulation (k = 0.04 W/m.K)
+  nozzle required: 1 x 27.5 mm, 1,591 kg/h | angle 45 deg | top | wall insulated
+  jet: J=98, r*d_eq=12.0 mm, Kerney L_c=38.1 mm, penetration 39% D at x=20 mm downstream, ends by 'confined' at x=20 mm (m/m0=9.9, 90% of heat deposited along path)
+  outlet 71.97 degC, outlet spread 0.00 degC, mixing length (spread<1 degC) 113 mm
+  peak strip T: top 124.2, bottom 72.0 degC | cells at T_sat(line): 7 of 40 | top>70 for 40798 mm, bottom>70 for 40720 mm
+  wall hotter than product (>0.1 degC) downstream of injector: top 155 mm, bottom 0 mm
+  hold downstream of injector: mean 18.3 s, fastest element 16.7 s, (1/7-law centreline 15.0 s), wall layer 28.1 s | coldest layer at outlet 71.97 degC
+  wall heat loss 572 W (0.05% of steam duty), outlet 71.97 degC
+  saved dsi_v6_4_wall.png
+  saved dsi_v6_summary.png

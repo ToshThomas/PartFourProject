@@ -1,0 +1,222 @@
+[
+ {
+  "line_bar": 1.5,
+  "T_sat_line": 111.36876309351106,
+  "case": "Top wall, 45\u00b0 (base)",
+  "n_sat": 7,
+  "peak_wall": 109.40701516251495,
+  "hot_len_mm": 151.0,
+  "L_mix_mm": 110.0,
+  "T_out": 71.99999999999991,
+  "uncondensed": 0.0
+ },
+ {
+  "line_bar": 1.5,
+  "T_sat_line": 111.36876309351106,
+  "case": "Top wall, 90\u00b0 (radial)",
+  "n_sat": 14,
+  "peak_wall": 111.13856950870982,
+  "hot_len_mm": 114.0,
+  "L_mix_mm": 79.0,
+  "T_out": 72.00000000000034,
+  "uncondensed": 0.0
+ },
+ {
+  "line_bar": 1.5,
+  "T_sat_line": 111.36876309351106,
+  "case": "Centre lance, co-axial",
+  "n_sat": 2,
+  "peak_wall": 72.0000000000001,
+  "hot_len_mm": 0.0,
+  "L_mix_mm": 37.0,
+  "T_out": 71.99999999999991,
+  "uncondensed": 0.0
+ },
+ {
+  "line_bar": 1.5,
+  "T_sat_line": 111.36876309351106,
+  "case": "Ring, 4 nozzles, 45\u00b0",
+  "n_sat": 10,
+  "peak_wall": 96.2480621532816,
+  "hot_len_mm": 44.0,
+  "L_mix_mm": 34.0,
+  "T_out": 71.99999999999993,
+  "uncondensed": 0.0
+ },
+ {
+  "line_bar": 2.0,
+  "T_sat_line": 120.32512204943208,
+  "case": "Top wall, 45\u00b0 (base)",
+  "n_sat": 7,
+  "peak_wall": 113.65302844967302,
+  "hot_len_mm": 152.0,
+  "L_mix_mm": 111.0,
+  "T_out": 71.99999999999999,
+  "uncondensed": 0.0
+ },
+ {
+  "line_bar": 2.0,
+  "T_sat_line": 120.32512204943208,
+  "case": "Top wall, 90\u00b0 (radial)",
+  "n_sat": 12,
+  "peak_wall": 119.86600281226674,
+  "hot_len_mm": 117.0,
+  "L_mix_mm": 82.0,
+  "T_out": 72.00000000000031,
+  "uncondensed": 0.0
+ },
+ {
+  "line_bar": 2.0,
+  "T_sat_line": 120.32512204943208,
+  "case": "Centre lance, co-axial",
+  "n_sat": 2,
+  "peak_wall": 72.00000000000006,
+  "hot_len_mm": 0.0,
+  "L_mix_mm": 37.0,
+  "T_out": 71.99999999999987,
+  "uncondensed": 0.0
+ },
+ {
+  "line_bar": 2.0,
+  "T_sat_line": 120.32512204943208,
+  "case": "Ring, 4 nozzles, 45\u00b0",
+  "n_sat": 10,
+  "peak_wall": 102.35740862204554,
+  "hot_len_mm": 45.0,
+  "L_mix_mm": 34.0,
+  "T_out": 72.00000000000004,
+  "uncondensed": 0.0
+ },
+ {
+  "line_bar": 2.5,
+  "T_sat_line": 127.58886787937257,
+  "case": "Top wall, 45\u00b0 (base)",
+  "n_sat": 7,
+  "peak_wall": 119.2653561196969,
+  "hot_len_mm": 154.0,
+  "L_mix_mm": 112.0,
+  "T_out": 72.00000000000003,
+  "uncondensed": 0.0
+ },
+ {
+  "line_bar": 2.5,
+  "T_sat_line": 127.58886787937257,
+  "case": "Top wall, 90\u00b0 (radial)",
+  "n_sat": 11,
+  "peak_wall": 126.84722259316231,
+  "hot_len_mm": 119.00000000000001,
+  "L_mix_mm": 84.0,
+  "T_out": 71.99999999999982,
+  "uncondensed": 0.0
+ },
+ {
+  "line_bar": 2.5,
+  "T_sat_line": 127.58886787937257,
+  "case": "Centre lance, co-axial",
+  "n_sat": 2,
+  "peak_wall": 72.00000000000006,
+  "hot_len_mm": 0.0,
+  "L_mix_mm": 37.0,
+  "T_out": 71.99999999999989,
+  "uncondensed": 0.0
+ },
+ {
+  "line_bar": 2.5,
+  "T_sat_line": 127.58886787937257,
+  "case": "Ring, 4 nozzles, 45\u00b0",
+  "n_sat": 8,
+  "peak_wall": 107.49270321882818,
+  "hot_len_mm": 45.0,
+  "L_mix_mm": 34.0,
+  "T_out": 72.00000000000007,
+  "uncondensed": 0.0
+ },
+ {
+  "line_bar": 3.0,
+  "T_sat_line": 133.74205367671914,
+  "case": "Top wall, 45\u00b0 (base)",
+  "n_sat": 7,
+  "peak_wall": 124.23649847529842,
+  "hot_len_mm": 155.0,
+  "L_mix_mm": 113.0,
+  "T_out": 71.99999999999983,
+  "uncondensed": 0.0
+ },
+ {
+  "line_bar": 3.0,
+  "T_sat_line": 133.74205367671914,
+  "case": "Top wall, 90\u00b0 (radial)",
+  "n_sat": 11,
+  "peak_wall": 132.71768241213334,
+  "hot_len_mm": 121.0,
+  "L_mix_mm": 85.0,
+  "T_out": 72.00000000000004,
+  "uncondensed": 0.0
+ },
+ {
+  "line_bar": 3.0,
+  "T_sat_line": 133.74205367671914,
+  "case": "Centre lance, co-axial",
+  "n_sat": 2,
+  "peak_wall": 72.00000000000006,
+  "hot_len_mm": 0.0,
+  "L_mix_mm": 37.0,
+  "T_out": 71.99999999999983,
+  "uncondensed": 0.0
+ },
+ {
+  "line_bar": 3.0,
+  "T_sat_line": 133.74205367671914,
+  "case": "Ring, 4 nozzles, 45\u00b0",
+  "n_sat": 8,
+  "peak_wall": 110.33745244002263,
+  "hot_len_mm": 45.0,
+  "L_mix_mm": 34.0,
+  "T_out": 72.00000000000013,
+  "uncondensed": 0.0
+ },
+ {
+  "line_bar": 3.4,
+  "T_sat_line": 138.085361607992,
+  "case": "Top wall, 45\u00b0 (base)",
+  "n_sat": 7,
+  "peak_wall": 127.59021960862653,
+  "hot_len_mm": 156.0,
+  "L_mix_mm": 113.0,
+  "T_out": 71.99999999999972,
+  "uncondensed": 0.0
+ },
+ {
+  "line_bar": 3.4,
+  "T_sat_line": 138.085361607992,
+  "case": "Top wall, 90\u00b0 (radial)",
+  "n_sat": 10,
+  "peak_wall": 136.83605041944145,
+  "hot_len_mm": 122.0,
+  "L_mix_mm": 86.0,
+  "T_out": 72.00000000000009,
+  "uncondensed": -4.336808689942018e-19
+ },
+ {
+  "line_bar": 3.4,
+  "T_sat_line": 138.085361607992,
+  "case": "Centre lance, co-axial",
+  "n_sat": 2,
+  "peak_wall": 72.00000000000006,
+  "hot_len_mm": 0.0,
+  "L_mix_mm": 37.0,
+  "T_out": 71.99999999999983,
+  "uncondensed": 0.0
+ },
+ {
+  "line_bar": 3.4,
+  "T_sat_line": 138.085361607992,
+  "case": "Ring, 4 nozzles, 45\u00b0",
+  "n_sat": 8,
+  "peak_wall": 113.70323845748332,
+  "hot_len_mm": 45.0,
+  "L_mix_mm": 34.0,
+  "T_out": 72.00000000000047,
+  "uncondensed": 0.0
+ }
+]
